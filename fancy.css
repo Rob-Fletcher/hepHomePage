@@ -1,5 +1,5 @@
 body{
-			margin-top: 100px;
+			margin-top: 50px;
 			font-family: 'Trebuchet MS', serif;
 			line-height: 1.6
 		}
@@ -28,10 +28,10 @@ body{
 }
 
 .container{
-	width: 800px;
+	width: 80%;
 	margin: 0 auto;
   border: 2px solid #F60;
-  height: 500px;
+  min-height: 500px;
 }
 
 ul.tabs{
@@ -60,6 +60,8 @@ ul.tabs li.current{
 
 .tab-content.current{
 	display: inherit;
+  overflow: hidden;
+	min-height: 442px;
 }
 
 .fa {
@@ -88,3 +90,28 @@ ul.tabs li.current{
 	display: none;
 	padding: 10px;
 	}
+
+.blog-heading {
+  font: 20px/30px Arial;
+  color: #FFFFFF;
+  height: 30px;
+  background: #F60;
+  padding-left: 10px;
+}
+.blog-content {
+  margin-bottom: 30px;
+}
+
+#footer {
+  font: 20px/40px Arial;
+  text-align: center;
+  height: 50px;
+}
+
+.side-list li {
+	display:inline;
+	font: 20px/40px Arial;
+	border-left: 1px solid #F60;
+	margin-left:15px;
+	padding-left:15px;
+}
