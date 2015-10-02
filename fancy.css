@@ -1,10 +1,87 @@
-.bubble {
-    border: 3px solid black;
-    border-radius: 5px;
+body{
+			margin-top: 100px;
+			font-family: 'Trebuchet MS', serif;
+			line-height: 1.6
+		}
+
+.banner{
+  text-align: center;
+  padding-bottom: 15px;
 }
 
-h1 {
-   display: inline-block;
-   border-radius: 5px; 
-   background-color: blue;
+#first-name {
+  display:inline-block;
+  font: 30px Arial;
+  color: rgba(0, 0, 0, 0.7);
 }
+#last-name {
+  display:inline-block;
+  border-left:2px solid black;
+  font: bold 50px Arial;
+}
+
+.connect {
+  margin-top: 10px;
+  font: 40px Arial;
+  width: 100%;
+}
+
+.container{
+	width: 800px;
+	margin: 0 auto;
+}
+
+ul.tabs{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+ul.tabs li{
+	background: none;
+	color: #222;
+	display: inline-block;
+	padding: 10px 15px;
+	cursor: pointer;
+}
+
+ul.tabs li.current{
+	background: #ededed;
+	color: #222;
+}
+
+.tab-content{
+	display: none;
+	background: #ededed;
+	padding: 15px;
+}
+
+.tab-content.current{
+	display: inherit;
+}
+
+.fa {
+  color: rgba(0,0,0,0.7);
+	margin: 0 10px;
+}
+
+.fa:hover {
+	color: #F60;
+}
+
+#ss_menu {
+	width: 500px;
+	}
+
+.ss_button {
+	background-color: #F60;
+	border-bottom: 1px solid #FFFFFF;
+	cursor: pointer;
+	padding: 10px;
+	color: #FFFFFF;
+	}
+
+.ss_content {
+	background-color: #EFEFEF;
+	display: none;
+	padding: 10px;
+	}

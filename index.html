@@ -4,40 +4,85 @@
     <head>
         <meta charset="utf-8">
         <title>Rob Roy Fletcher</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css"> </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.js"></script>
+        <script type="text/javascript" src="tabs.js"> </script>
         <link rel="stylesheet" href="./fancy.css">
 
     </head>
     <body>
-        <div>
-            <h1>Documentation</h1>
-            <div>
-                <ul>
-                    <li><a href="Documentation/index.html">Shifting Tool</a></li>
-                </ul>
-            </div>
-        </div>
 
-        <div>
-           <h1>Presentations</h1>
-           <div> 
-                <ul>
-                    <li><a href="Presentations/RevealTalks/index.html">Sample Talk</a></li>
-                    <li><a href="Presentations/RevealTalks/template.html">Template</a></li>
-                    <li><a href="Presentations/RevealTalks/egamma/release_comparison.html">Release Comparison</a></li>
-                    <li><a href="Presentations/RevealTalks/egamma/tracking_comparison.html">Tracking Comparison</a></li>
-                </ul>
-            </div>
+      <div class="main-window">
+        <div class="banner">
+          <div id="first-name">Rob Roy</div>  <div id="last-name">Fletcher</div>
+          <div class="connect">
+              <a target="_blank" href="http://github.com/Rob-MFn-Fletcher"><i class="fa fa-github"></i></a>
+              <a  target="_blank" href="#"><i class='fa fa-user'></i></a>
+          </div>
         </div>
+        <!--Navigation-->
+        <div class="container">
 
+        	<ul class="tabs">
+        		<li class="tab-link current" data-tab="tab-1">Home</li>
+        		<li class="tab-link" data-tab="tab-2">Documentation</li>
+        		<li class="tab-link" data-tab="tab-3">Plots</li>
+        		<li class="tab-link" data-tab="tab-4">Presentations</li>
+            <li class="tab-link" data-tab="tab-5">Contact</li>
+        	</ul>
 
-        <div>
-            <h1>Egamma Contents</h1>
-            <div>
+          <!-- Home Tab -->
+        	<div id="tab-1" class="tab-content current">
+            Home Tab.
+        	</div>
+
+          <!-- Documentation Tab -->
+        	<div id="tab-2" class="tab-content">
+            <h2>Electron Shifting Tool</h2>
+              <ul>
+                <li> <a href="/Documentation/index.html">Doxygen</a> </li>
+                <li> <a href="https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/LikelihoodTuningValidation">Twiki</a> </li>
+              </ul>
+        	</div>
+
+          <!-- Plots Tab -->
+        	<div id="tab-3" class="tab-content">
+            <h2>Egamma Plots</h2>
+            <h2>Di-photon Plots</h2>
+        	</div>
+
+          <!-- Presentations -->
+        	<div id="tab-4" class="tab-content">
+            <div id="ss_menu">
+              <div class="ss_button">Reveal Talks</div>
+              <div class="ss_content">
                 <ul>
-                    <li><a href="Presentations/RevealTalks/egamma/egamma/plots/">Plots</a></li>
+                  <li>Egamma Talks</li>
+                  <li>Di-Photon Talks</li>
                 </ul>
+              </div>
+
+              <div class="ss_button">Keynote Talks</div>
+              <div class="ss_content">
+                  <ul>
+                    <li>Egamma Talks</li>
+                    <li>Di-Photon Talks</li>
+                  </ul>
+              </div>
             </div>
-        </div>
+
+        	</div>
+
+          <!-- Contact -->
+          <div id="tab-5" class="tab-content">
+
+          </div>
+
+        </div><!-- container -->
+
+      </div>
     </body>
 
 </html>
