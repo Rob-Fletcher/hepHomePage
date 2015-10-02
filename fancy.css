@@ -16,11 +16,12 @@ body{
 }
 #last-name {
   display:inline-block;
-  border-left:2px solid black;
+  border-left:2px solid #F60;
   font: bold 50px Arial;
 }
 
 .connect {
+  margin-left: -40px;
   margin-top: 10px;
   font: 40px Arial;
   width: 100%;
@@ -29,6 +30,8 @@ body{
 .container{
 	width: 800px;
 	margin: 0 auto;
+  border: 2px solid #F60;
+  height: 500px;
 }
 
 ul.tabs{
